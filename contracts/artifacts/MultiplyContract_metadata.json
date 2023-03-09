@@ -1,0 +1,85 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getConvert",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "numWei",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "numEther",
+						"type": "uint256"
+					}
+				],
+				"name": "setEther",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/MetaPrim.sol": "MultiplyContract"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/MetaPrim.sol": {
+			"keccak256": "0x6c70c4aafd1afa32e1c14abebca22d14c35642261aab541fd10cbceb120bf1f6",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://1801a733ad09b99d0f4fee505ab24e40833f60b4fdc0d2a30db6470f68f73789",
+				"dweb:/ipfs/QmYCaRksBWj2rbjwUrMvYiEwWKvJEoeUFE3TjwER9j7vd4"
+			]
+		}
+	},
+	"version": 1
+}
